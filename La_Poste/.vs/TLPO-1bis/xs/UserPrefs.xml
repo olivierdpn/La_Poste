@@ -1,0 +1,23 @@
+﻿<Properties StartupConfiguration="{FE5B0C4B-0183-4704-8650-7D450946F29D}|Default">
+  <MonoDevelop.Ide.Workbench ActiveDocument="TLPO-1bis/Properties/Settings.settings">
+    <Files>
+      <File FileName="TLPO-1bis/Form1.cs" Line="1" Column="1" />
+      <File FileName="TLPO-1bis/Form1.Designer.cs" Line="63" Column="1" />
+      <File FileName="TLPO-1bis/Form1.resx" Line="1" Column="1" />
+      <File FileName="TLPO-1bis/GoogleObject.cs" Line="9" Column="2" />
+      <File FileName="TLPO-1bis/packages.config" Line="1" Column="1" />
+      <File FileName="TLPO-1bis/Program.cs" Line="1" Column="1" />
+      <File FileName="TLPO-1bis/App.config" Line="1" Column="1" />
+      <File FileName="TLPO-1bis/Properties/AssemblyInfo.cs" Line="1" Column="1" />
+      <File FileName="TLPO-1bis/Properties/Resources.resx" Line="1" Column="1" />
+      <File FileName="TLPO-1bis/Properties/Settings.settings" Line="1" Column="1" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.ItemProperties.TLPO-1bis PreferredExecutionTarget="MonoDevelop.Default" />
+  <MultiItemStartupConfigurations />
+</Properties>

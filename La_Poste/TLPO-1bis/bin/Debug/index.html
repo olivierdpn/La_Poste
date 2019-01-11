@@ -1,0 +1,30 @@
+﻿<html>
+
+<body  style="height: 100%; width: 100%;">
+<script>
+function getParameterByName(name, url) {
+    if (!url) {
+      url = window.location.href;
+    }
+    name = name.replace(/[\[\]]/g, "\\$&");
+    var regex = new RegExp("[?&]" + name + "(=([^&#]*)|&|#|$)"),
+        results = regex.exec(url);
+    if (!results) return null;
+    if (!results[2]) return '';
+    return decodeURIComponent(results[2].replace(/\+/g, " "));
+}
+
+var ifrm = document.createElement("iframe");
+var url = getParameterByName('url');
+url += '&origin=' + getParameterByName('origin');
+url += '&destination=' + getParameterByName('destination');
+url += '&avoid=' + getParameterByName('avoid');
+url += '&waypoints=' + getParameterByName('waypoints');
+ifrm.setAttribute("src", url);
+ifrm.style.width = "100%";
+ifrm.style.height = "100%";
+
+document.body.appendChild(ifrm);
+</script>
+</body>
+</html>
